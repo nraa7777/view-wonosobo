@@ -83,7 +83,7 @@ header .hero h1 {
   height: auto;
   display: flex;
   align-items: center;
-  background-color: lightslategray;
+  background-color: white;
 }
 .about .box-about {
   margin-bottom: 2%;
@@ -91,6 +91,9 @@ header .hero h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.about .box-about .box:nth-child(1) {
+  padding-right: 30px;
 }
 
 .about .box-about .box:nth-child(1) h1 {
@@ -116,7 +119,7 @@ header .hero h1 {
   height: auto;
   display: flex;
   align-items: center;
-  background-color: #2b2d42;
+  background-color: white;
 }
 
 .famous .box-famous {
@@ -129,7 +132,7 @@ header .hero h1 {
 
 .famous .box-famous .box {
   margin-inline: 10px;
-  color: white;
+  color: black;
 }
 
 .famous .box-famous .box img {
