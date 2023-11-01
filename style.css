@@ -93,10 +93,6 @@ header .hero h1 {
   justify-content: center;
 }
 
-.about .box-about .box:nth-child(1) {
-  padding-right: 30px;
-}
-
 .about .box-about .box:nth-child(1) h1 {
   margin: 30px;
   font-size: 42px;
